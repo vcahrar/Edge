@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<title>blood types</title>
+	
+	<body>
+	
+		<h1>Hello World Double Array</h1>
+		
+	<!--
+	Abraham Gabriel Strauss
+	7-24-24 6:07 PM
+	for edge project
+	-->
+	
+		<table>
+
+		<!-- <tr> is table row & 
+		<td> is table data in html
+		meaning the elements or cells in a row-->
+
+			  <tr>
+				<td  id="A"></td>
+				<td  id="B"></td>
+				<td  id="C"></td>
+				<td  id="D"></td>
+			  </tr>
+
+			  <tr>
+				<td  id="E"></td>
+				<td  id="F"></td>
+				<td  id="G"></td>
+				<td  id="H"></td>
+			  </tr>
+
+		</table>
+
+		<script>
+
+		//double array syntax
+
+			let bloodType = [
+			  ["A", "B", "AB", "O"],
+			  ["A", "B", "AB", "O"]
+			 
+			];
+
+			//row 1
+
+			document.getElementById("A").innerHTML = bloodType[0][0];
+			document.getElementById("B").innerHTML = bloodType[0][1];
+			document.getElementById("C").innerHTML = bloodType[0][2];
+			document.getElementById("D").innerHTML = bloodType[0][3];
+
+			//row 2
+
+			document.getElementById("E").innerHTML = bloodType[1][0];
+			document.getElementById("F").innerHTML = bloodType[1][1];
+			document.getElementById("G").innerHTML = bloodType[1][2];
+			document.getElementById("H").innerHTML = bloodType[1][3];
+		</script>
+
+	</body>
+</html>
